@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    hostmane = "app.terraform.io"
+    hostname = "app.terraform.io"
     organization = "rozanskilab"
   
     workspaces {
